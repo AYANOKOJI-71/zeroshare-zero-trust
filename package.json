@@ -1,0 +1,15 @@
+{
+  "name": "zeroshare-zero-trust",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.6.3",
+  "scripts": {
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test",
+    "build": "pnpm -r build",
+    "dev:identity": "pnpm --filter @zeroshare/identity dev",
+    "dev:api": "pnpm --filter @zeroshare/api dev",
+    "dev:web": "pnpm --filter @zeroshare/web dev",
+    "verify:flow": "node scripts/verify-oidc-flow.mjs"
+  }
+}
