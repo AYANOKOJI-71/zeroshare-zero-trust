@@ -2,7 +2,7 @@
 
 > A full local OAuth2/OIDC security lab that makes every file request prove its identity, scope, policy, and time-bound authorization before the API releases decrypted content.
 
-ZeroShare is a recruiter-facing demonstration of secure architecture rather than a consumer file drive. It pairs a React workspace with a Node.js/TypeScript API, PostgreSQL schema, S3-compatible object storage, a local OAuth2/OIDC provider, AES-256-GCM envelope encryption, one-time download grants, and HMAC-linked audit evidence.
+ZeroShare is a secure architecture rather than a consumer file drive. It pairs a React workspace with a Node.js/TypeScript API, PostgreSQL schema, S3-compatible object storage, a local OAuth2/OIDC provider, AES-256-GCM envelope encryption, one-time download grants, and HMAC-linked audit evidence.
 
 ## What this project demonstrates
 
